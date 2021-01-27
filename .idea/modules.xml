@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot_Seata/SpringBoot_Seata.iml" filepath="$PROJECT_DIR$/SpringBoot_Seata/SpringBoot_Seata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot_study/SpringBoot_study.iml" filepath="$PROJECT_DIR$/SpringBoot_study/SpringBoot_study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibaba_nacos/SpringCloudAlibaba_nacos.iml" filepath="$PROJECT_DIR$/SpringCloudAlibaba_nacos/SpringCloudAlibaba_nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud_alibaba/SpringCloud_alibaba.iml" filepath="$PROJECT_DIR$/SpringCloud_alibaba/SpringCloud_alibaba.iml" />
+    </modules>
+  </component>
+</project>

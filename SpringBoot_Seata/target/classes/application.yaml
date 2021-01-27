@@ -1,0 +1,46 @@
+server:
+  port: 18080
+seata:
+  config:
+    type: file
+  application-id: springboot-seata
+  registry:
+    type: file
+  service:
+    grouplist:
+      default: 192.168.137.100:8091
+    vgroup-mapping:
+      springboot-seata-group: default
+  tx-service-group: springboot-seata-group
+spring:
+  application:
+    name: seata-distributed-transaction
+  datasource:
+    dynamic:
+      datasource:
+        # 设置 账号数据源配置
+        account-ds:
+          username: root
+          password: 1234
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://192.168.137.100:3306/seata_accountdb?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useSSL=false
+          # 设置 订单数据源配置
+        order-ds:
+          username: root
+          password: 1234
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://192.168.137.100:3306/seata_orderdb?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useSSL=false
+          # 设置商品 数据源配置
+        product-ds:
+          username: root
+          password: 1234
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://192.168.137.100:3306/seata_productdb?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useSSL=false
+      # 设置默认数据源或者数据源组 默认值即为master
+      primary: order-ds   # 默认指定一个数据源
+      # 开启对 seata的支持
+      seata: true
+mybatis:
+  mapper-locations: classpath:mappers/*.xml
+  type-aliases-package: com.study.seata.mode
+

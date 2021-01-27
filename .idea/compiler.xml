@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringCloud_alibaba" />
+        <module name="SpringBoot_study" />
+        <module name="SpringCloudAlibaba_nacos" />
+        <module name="SpringBoot_Seata" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringBoot_Seata" target="1.5" />
+      <module name="SpringBoot_study" target="1.5" />
+      <module name="SpringCloud_alibaba" target="1.5" />
+      <module name="SpringCloudAlibaba_nacos" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringCloudAlibaba_nacos" options="-parameters" />
+      <module name="SpringCloud_alibaba" options="" />
+    </option>
+  </component>
+</project>
