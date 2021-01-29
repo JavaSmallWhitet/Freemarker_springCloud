@@ -66,13 +66,13 @@
             <version>3.2.0</version>
         </dependency>
 
-        <!-- nacos-client springboot单体项目
+        <!-- com.study.nacos-client springboot单体项目
         需要单独加一下 nacos的依赖
          不需要向nacos 进行注册的
          -->
         <dependency>
-            <groupId>com.alibaba.nacos</groupId>
-            <artifactId>nacos-client</artifactId>
+            <groupId>com.alibaba.com.study.nacos</groupId>
+            <artifactId>com.study.nacos-client</artifactId>
             <version>1.3.1</version>
         </dependency>
 

@@ -1,0 +1,9 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: alibaba-nacos-discovery-client-common
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.137.100:8848

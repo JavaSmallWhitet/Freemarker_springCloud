@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/SpringBoot_Seata/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloud_alibaba/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudAlibaba_nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudAlibaba_nacos/alibaba-nacos-discovery-server/pom.xml" />
       </list>
     </option>
   </component>

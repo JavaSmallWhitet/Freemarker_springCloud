@@ -6,23 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="alibaba-nacos-config-client" />
         <module name="SpringCloud_alibaba" />
+        <module name="alibaba-nacos-discovery-client-common" />
         <module name="SpringBoot_study" />
-        <module name="SpringCloudAlibaba_nacos" />
         <module name="SpringBoot_Seata" />
+        <module name="alibaba-nacos-discovery-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="alibaba-nacos-config-client" target="8" />
+      <module name="alibaba-nacos-discovery-client-common" target="8" />
+      <module name="alibaba-nacos-discovery-server" target="8" />
       <module name="SpringBoot_Seata" target="1.5" />
       <module name="SpringBoot_study" target="1.5" />
       <module name="SpringCloud_alibaba" target="1.5" />
-      <module name="SpringCloudAlibaba_nacos" target="8" />
+      <module name="SpringCloudAlibaba_nacos" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringCloudAlibaba_nacos" options="-parameters" />
       <module name="SpringCloud_alibaba" options="" />
+      <module name="alibaba-nacos-config-client" options="-parameters" />
+      <module name="alibaba-nacos-discovery-client-common" options="-parameters" />
+      <module name="alibaba-nacos-discovery-server" options="-parameters" />
     </option>
   </component>
 </project>

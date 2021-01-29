@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBoot_study/SpringBoot_study.iml" filepath="$PROJECT_DIR$/SpringBoot_study/SpringBoot_study.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibaba_nacos/SpringCloudAlibaba_nacos.iml" filepath="$PROJECT_DIR$/SpringCloudAlibaba_nacos/SpringCloudAlibaba_nacos.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCloud_alibaba/SpringCloud_alibaba.iml" filepath="$PROJECT_DIR$/SpringCloud_alibaba/SpringCloud_alibaba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibaba_nacos/alibaba-nacos-config-client/alibaba-nacos-config-client.iml" filepath="$PROJECT_DIR$/SpringCloudAlibaba_nacos/alibaba-nacos-config-client/alibaba-nacos-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibaba_nacos/alibaba-nacos-discovery-client-common/alibaba-nacos-discovery-client-common.iml" filepath="$PROJECT_DIR$/SpringCloudAlibaba_nacos/alibaba-nacos-discovery-client-common/alibaba-nacos-discovery-client-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibaba_nacos/alibaba-nacos-discovery-server/alibaba-nacos-discovery-server.iml" filepath="$PROJECT_DIR$/SpringCloudAlibaba_nacos/alibaba-nacos-discovery-server/alibaba-nacos-discovery-server.iml" />
     </modules>
   </component>
 </project>
